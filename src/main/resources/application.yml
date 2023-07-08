@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://zghujqpx:CZfrG0gZKM_u8TB5kVxFESHwWJTPgSbc@tuffi.db.elephantsql.com/zghujqpx
+    username: zghujqpx
+    password: CZfrG0gZKM_u8TB5kVxFESHwWJTPgSbc
