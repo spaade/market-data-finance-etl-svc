@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
 @Table("stocks")
-public class Stock {
+public class StockEntity {
 
     @Id
     private Long id;
@@ -16,7 +16,7 @@ public class Stock {
     private String stats;
     private String dividend;
 
-    public Stock(Long id, String symbol, String name, String currency, String stockExchange, String quote, String stats, String dividend) {
+    public StockEntity(Long id, String symbol, String name, String currency, String stockExchange, String quote, String stats, String dividend) {
         this.id = id;
         this.symbol = symbol;
         this.name = name;

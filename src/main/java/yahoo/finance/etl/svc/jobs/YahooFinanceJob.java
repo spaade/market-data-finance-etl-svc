@@ -8,8 +8,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 import yahoo.finance.etl.svc.dtos.StockDTO;
 import yahoo.finance.etl.svc.service.StocksService;
-import yahoofinance.Stock;
-import yahoofinance.YahooFinance;
+import yahoo.finance.etl.svc.yahoofinance.Stock;
+import yahoo.finance.etl.svc.yahoofinance.YahooFinance;
+import yahoo.finance.etl.svc.yahoofinance.histquotes2.CrumbManager;
 
 import java.io.IOException;
 import java.util.List;
