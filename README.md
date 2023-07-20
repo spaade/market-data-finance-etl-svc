@@ -87,6 +87,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries or feedback, please contact us at contact@projectname.com.
+For any inquiries or feedback, please contact us at gusttaa00@gmail.com.
 
 Happy coding! 🚀✨
