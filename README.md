@@ -26,7 +26,7 @@ Follow these instructions to get the project up and running on your local machin
 
 ### Prerequisites
 
-- Java Development Kit (JDK) 17 or higher
+- Java Development Kit (JDK) 20 or higher
 - PostgreSQL database
 
 ### Installation
