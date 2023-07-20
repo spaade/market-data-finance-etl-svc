@@ -43,7 +43,7 @@ Follow these instructions to get the project up and running on your local machin
 3. Configure the database connection in the `env variables`:
 
    ```properties
-   DB_URL=jdbc:postgresql://localhost:5432/your_database_name
+   DB_URL=r2dbc:postgresql://localhost:5432/your_database_name
    DB_USERNAME=your_username
    DB_PASSWORD=your_password
    ```
