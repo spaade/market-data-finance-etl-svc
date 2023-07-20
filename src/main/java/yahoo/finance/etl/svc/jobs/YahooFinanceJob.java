@@ -37,6 +37,6 @@ public class YahooFinanceJob {
             Stock stock = YahooFinance.get(stockDTO.symbol());
             stock.print();
         }
-
     }
+
 }
