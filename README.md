@@ -9,6 +9,10 @@
 
 The Market Data Finance ETL Service is an ongoing Extract, Transform, Load (ETL) system and service that allows users to fetch finance quotes using data from the Yahoo Finance API. It is built on top of Spring Web Flux, a reactive web framework, and utilizes PostgreSQL as the database to store the fetched data.
 
+## TODOS
+
+- Build our own WebClient to uncouple from [Yahoo Finance Java Client](https://github.com/sstrickx/yahoofinance-api). Which is not working right now as Yahoo shutdown their APIs but there is a workaround.
+
 ## Features
 
 - Real-time data fetching from Yahoo Finance API.
